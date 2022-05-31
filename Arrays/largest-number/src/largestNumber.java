@@ -25,11 +25,6 @@ public class largestNumber
 					arr[j]=arr[k];
 					arr[k]=temp;
 				}
-				else if(arr[j]>arr[k])
-				{
-					arr[j]=arr[j];
-				}
-				
 			}
 		}
 		for(int ctr:arr)
