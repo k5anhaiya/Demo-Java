@@ -22,7 +22,7 @@ public class menuDriven
 		System.out.println("4.To perform Divide");
 		System.out.println("5.To Quit");
 		int choice=scanner.nextInt();
-		while(true)
+		if(true)
 		{
 			switch(choice)
 			{
@@ -55,7 +55,8 @@ public class menuDriven
 					break;
 				}
 			}
-			break;
+		
+			
 		}
 		
 	}
