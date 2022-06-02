@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class App 
+public class square 
 {
 	int num;
 	int answer;
 	Scanner scanner=new Scanner(System.in);
-	public App(int v)
+	public square(int v)
 	{
 		this.num=v;
 		squareLogic();
@@ -21,7 +21,7 @@ public class App
 	
 	public static void main(String[] args) 
 	{
-		App a1=new App(25);
+		square a1=new square(25);
 	}
 
 }
