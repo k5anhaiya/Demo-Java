@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;stopWatchwithButton&apos; to &apos;exam_Timer&apos;&#x0D;&#x0A;- Original project: &apos;exam-time&apos;&#x0D;&#x0A;- Original element: &apos;stopWatchwithButton&apos;&#x0D;&#x0A;- Renamed element: &apos;exam_Timer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;stopWatchwithButton&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{stopWatchwithButton.java[stopWatchwithButton" matchStrategy="1" name="exam_Timer" qualified="false" references="true" similarDeclarations="false" stamp="1653710599669" textual="false" version="1.0"/>
-</session>

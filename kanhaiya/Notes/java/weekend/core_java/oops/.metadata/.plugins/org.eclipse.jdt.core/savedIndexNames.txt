@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+E:\java\weekend\core_java\oops\.metadata\.plugins\org.eclipse.jdt.core
-2165286565.index
-3740494722.index
-1865797976.index
-1996724715.index
-125871035.index

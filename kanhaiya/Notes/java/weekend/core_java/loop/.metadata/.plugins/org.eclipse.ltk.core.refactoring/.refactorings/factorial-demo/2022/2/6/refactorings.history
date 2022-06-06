@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;factorial&apos; to &apos;power&apos;&#x0D;&#x0A;- Original project: &apos;factorial-demo&apos;&#x0D;&#x0A;- Original element: &apos;factorial&apos;&#x0D;&#x0A;- Renamed element: &apos;power&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;factorial&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{factorial.java[factorial" matchStrategy="1" name="power" qualified="false" references="true" similarDeclarations="false" stamp="1643680355354" textual="false" version="1.0"/>
-</session>

@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+E:\java\weekend\core_java\polymorphism\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3740494722.index
-3911956229.index

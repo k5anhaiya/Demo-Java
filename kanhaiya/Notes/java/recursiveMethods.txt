@@ -1,3 +1,0 @@
-Recursive methods
-------------------
-the method which call itself are called recursive methods.

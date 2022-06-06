@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;practice-ifelse&apos;" deleteContents="true" description="Delete resource &apos;practice-ifelse&apos;" element1="/practice-ifelse" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1639938990305"/>&#x0A;<refactoring comment="Delete resource &apos;ifelse-practice&apos;" deleteContents="true" description="Delete resource &apos;ifelse-practice&apos;" element1="/ifelse-practice" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1639939194661"/>
-</session>

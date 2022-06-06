@@ -1,9 +1,0 @@
-INDEX VERSION 1.131+E:\java\weekend\core_java\App\event\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3740494722.index
-2956113629.index
-2468690880.index
-2098947254.index
-3430624848.index
-2615604984.index
-4275293657.index
