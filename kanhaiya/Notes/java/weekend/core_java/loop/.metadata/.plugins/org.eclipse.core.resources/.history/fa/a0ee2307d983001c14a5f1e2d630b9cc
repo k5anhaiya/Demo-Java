@@ -1,0 +1,14 @@
+
+public class atozseries 
+{
+	public static void main(String[] args) 
+	{
+	char op;
+	for(int n=97;n<=123;n++)
+	{
+		op=(char)n;
+		System.out.print(op + " ");
+	}
+	}
+
+}

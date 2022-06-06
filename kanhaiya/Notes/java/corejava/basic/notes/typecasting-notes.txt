@@ -1,0 +1,23 @@
+Typecasting
+------------
+It is one of the way to change the type of a value
+(type)value/variable-name
+It can be of two types
+
+1)Explicit typecasting:In this case typecasting code will be written by us
+
+double->float->long->int->short->byte
+
+2)Implicit typecasting:In this case typecasting code will be done by compiler
+
+byte->short->int->long->float->double
+
+
+
+
+
+
+
+
+
+

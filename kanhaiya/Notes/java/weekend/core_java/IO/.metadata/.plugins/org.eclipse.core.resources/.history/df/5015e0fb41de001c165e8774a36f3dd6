@@ -1,0 +1,20 @@
+import java.io.*;
+
+public class WriteApp 
+{
+	public static void main(String[] args) 
+	{
+		try 
+		{
+			FileOutputStream fos=new FileOutputStream("D:\\java\\weekend\\core_java\\IO");
+			//pass the url of the folder in which you want
+			//to write the code
+			
+		} 
+		catch (Exception ex) 
+		{
+			System.out.println(ex);
+		}
+	}
+
+}

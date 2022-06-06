@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+D:\java\weekend\core_java\StringHandling\.metadata\.plugins\org.eclipse.jdt.core
+408891650.index
+2554126511.index
+910933239.index
+786200777.index
+4135738590.index
+1090206333.index
+1865797976.index
+3911480470.index
+3407377250.index

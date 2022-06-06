@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+E:\java\weekend\core_java\inheritance\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+872235650.index
+432936113.index
+1400365087.index
+1338823994.index
+2774033421.index
+2682594162.index
+338913731.index
+1560346389.index
+3740494722.index

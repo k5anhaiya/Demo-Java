@@ -9,5 +9,6 @@ public class increament_decreament
      {
      System.out.print(i+" ");
      }
+     System.out.println("------------------------------------------");
     }
 }

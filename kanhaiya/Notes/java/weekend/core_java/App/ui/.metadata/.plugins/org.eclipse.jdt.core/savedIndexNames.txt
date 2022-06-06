@@ -1,0 +1,9 @@
+INDEX VERSION 1.131+D:\java\weekend\core_java\App\ui\.metadata\.plugins\org.eclipse.jdt.core
+2719764492.index
+153098869.index
+2076285323.index
+1150163143.index
+785179747.index
+2960145555.index
+1865797976.index
+2334559875.index

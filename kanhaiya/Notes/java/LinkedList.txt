@@ -1,0 +1,29 @@
+Linked List
+------------
+Linked List is a class of List interface and list interface is a interace of collection interface.
+
+We can not mention the fixed size of linked list because the nodes will be created only when elements are inserted.and nodes will be deleted once we remove the elements.
+
+data is not stored in sequence
+
+Doubly pointed linkedlist
+--------------------------
+Linked List inserts the elements in nodes.start part of the node point towards end part of previous node and end part of node point towards start point of next node.
+
+
+inside linked list their will be one pointer at the end and one pointer at the begning the pointer at the begning of linked list will point towards begning of previous linked list and the pointer at the end will point towards the next linkedlist. 
+
+inserting and deleting of element is easy in linked list.
+
+we can increase or decrease  the size of array by adding or deleting the elements.
+
+if you want size of array should be more flexible and more expandable then go for linkedlist.
+
+disadvantage is it will take extra space for linking the nodes but provides efficinecy also
+
+
+single pointer linked list
+---------------------------
+means it will always points towards the next node.
+
+java supports doubly pointer linkedlist

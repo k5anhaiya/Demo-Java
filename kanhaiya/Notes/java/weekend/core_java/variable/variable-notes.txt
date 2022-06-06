@@ -1,0 +1,67 @@
+How to define
+How to call method
+
+1)Command to create variable
+
+Variable
+--------
+
+Task related to data.
+Data is kept into memory by the perogram/computer before processing as well as after processing
+Program must reserve space in memory to keep data.
+Space resrerved by program into memory is known as variable.We can also say variable is container of data
+It is a named space.
+We need to write command to reserve space in memory.This command is also known as command to create variable or variab le declaration
+
+Syntax:
+
+datatype variable_name;
+
+Datatypes will be provided by programming language.
+In java we can divide datatypes into following two categories
+
+1)Primitive datatypes:These datatypes are also known as fundamental datatypes.
+In java there are 8 primitive datatypes
+
+Datatypes		Value/Data type		Size in bit
+---------		----------		-----------
+byte			Integer			8
+short			Integer			16
+int			Integer			32
+long			Integer			64
+float			Fractional		32			
+double			Fractional		64
+boolean			true/false		1
+char			single character	16
+---------------------------------------------------
+
+byte v1;
+short v2;
+int v3;
+long v4;
+float v5;
+double v6;
+boolean v7;
+char v8;
+
+
+
+2)Non-primitive datatypes: These data types are also called derivied data types. String is one of the dervied data types.
+These data types are derived from other data types.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

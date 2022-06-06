@@ -1,0 +1,11 @@
+All alphabtes
+All symbols
+All digits
+
+Are characters
+
+All characters are identified by an integer number.This number is known as ASCII code(int c and c++) or Unicode(java,python,C# etc)
+
+A-Z:65-90
+a-z:97-122
+0-9:48-57

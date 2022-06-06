@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\kanhaiya\Notes\java\weekend\core_java\ExceptionHandling\.metadata\.plugins\org.eclipse.jdt.core
+1353344507.index
+2676789728.index
+188310423.index

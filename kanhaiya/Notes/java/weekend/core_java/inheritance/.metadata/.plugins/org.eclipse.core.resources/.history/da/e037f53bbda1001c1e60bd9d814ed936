@@ -1,0 +1,10 @@
+package p1;
+
+public class BB 
+{
+	public void show()
+	{
+		System.out.println("Welcome");
+	}
+
+}

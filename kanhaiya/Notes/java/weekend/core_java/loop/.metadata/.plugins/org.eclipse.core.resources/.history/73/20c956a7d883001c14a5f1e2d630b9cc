@@ -1,0 +1,11 @@
+
+public class atozseries 
+{
+	public static void main(String[] args) 
+	{
+	int n=99;
+	char op=(char)n;
+	System.out.println(op);
+	}
+
+}

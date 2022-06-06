@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class App2 
+{
+ public static void main(String[] args) 
+ {
+  int [] num= {10,567,39,890,6,5789,234,5345,10};
+  //Write code to display largest,smallest number and sum,average of numbers
+  int max=num[0];
+  int min=num[0];
+  int sum=num[0];
+  for(int i=1;i<num.length;i++)
+  {
+   if(num[i]>max)
+    max=num[i];
+   if(num[i]<min)
+    min=num[i];
+   sum=sum+num[i];
+  }
+  System.out.println("Largest number is "+max);
+  System.out.println("Smallest number is "+min);
+  System.out.println("Sum of all number is "+sum);
+  double avg=(double)sum/num.length;
+  System.out.println("Average is "+avg);
+ }
+}

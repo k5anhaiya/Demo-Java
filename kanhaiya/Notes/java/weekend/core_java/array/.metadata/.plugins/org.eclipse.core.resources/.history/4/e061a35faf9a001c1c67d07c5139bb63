@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class LinerSearch2 
+{
+ public static void main(String[] args) 
+ {
+  String [] list= {"Aman","Karan","Himanshu","Kanhaiya","Rehan","Priynaka","Pooja","Priyasnhu"};
+  Scanner sc=new Scanner(System.in);
+  System.out.println("Enter your name");
+  String name=sc.nextLine();
+  boolean found=false;
+  for(String str:list)
+  {
+   if(str.equals(name))
+   {
+    found=true;
+    System.out.println("Your name exist into list");
+    break;
+   }
+  }
+  if(!found)
+   System.out.println("Your name does not exist into list");
+ }
+}

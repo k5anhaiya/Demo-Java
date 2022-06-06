@@ -1,0 +1,87 @@
+Importing Classes
+------------------
+Inorder to use those classes that are in package, We will have to write code to import those classes.
+we achieve it by following three ways
+
+1)import package.classname;
+2)import packagename.*;
+3)without import statement.use fully qualified class in code.
+
+without importing classs. Program can not use it.Compiler will give error.
+
+method 1 of importing the code
+--------------------------------
+ 
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.Color;
+import java.awt.Font;
+
+public class ImportDemo 
+{
+	public static void main(String[] args) 
+	{
+		JFrame fr=new JFrame();
+		fr.setSize(400,400);
+		fr.setLocationRelativeTo(null);
+		JButton bt=new JButton();
+		bt.setForeground(Color.blue);
+		bt.setFont(new Font("arial",0,22));
+		JPanel pa=new JPanel();
+		fr.add(pa);
+		pa.add(bt);
+		fr.setVisible(true);
+		
+	}
+
+}
+
+
+method 2 of importing code(not recommended)
+---------------------------
+import javax.swing.*;
+import java.awt.*;
+
+
+public class ImportDemo2 
+{
+	public static void main(String[] args) 
+	{
+		JFrame fr=new JFrame();
+		fr.setSize(400,400);
+		fr.setLocationRelativeTo(null);
+		JButton bt=new JButton();
+		bt.setForeground(Color.blue);
+		bt.setFont(new Font("arial",0,22));
+		JPanel pa=new JPanel();
+		fr.add(pa);
+		pa.add(bt);
+		fr.setVisible(true);
+		
+	}
+
+}
+
+
+method 3 of import(not recommended)
+------------------------------------
+
+public class ImportDemo3 
+{
+	public static void main(String[] args) 
+	{
+		javax.swing.JFrame fr=new javax.swing.JFrame();
+		fr.setSize(400,400);
+		fr.setLocationRelativeTo(null);
+		javax.swing.JButton bt=new javax.swing.JButton();
+		bt.setForeground(java.awt.Color.blue);
+		bt.setFont(new java.awt.Font("arial",0,22));
+		javax.swing.JPanel pa=new javax.swing.JPanel();
+		fr.add(pa);
+		pa.add(bt);
+		fr.setVisible(true);
+		
+	}
+
+}

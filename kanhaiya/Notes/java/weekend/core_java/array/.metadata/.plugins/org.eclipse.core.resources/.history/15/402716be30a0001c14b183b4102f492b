@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Trail 
+{
+	public static String [] x= {"","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteeen","nineteen"};
+	public static String [] y= {"","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"};
+	public static void main(String[] args) 
+	{
+		System.out.print("Enter any number=");
+		Scanner obj=new Scanner(System.in);
+		int n=obj.nextInt();
+		if(n>=1 && n<=19)
+		{
+			System.out.print(x[n]+" ");
+		}
+		if(n>=20 && n<=99)
+		{
+			System.out.print(y[n%10]+" "+x[n/10]);
+		}
+	}
+}

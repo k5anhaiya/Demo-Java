@@ -1,0 +1,24 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class App 
+{
+	JFrame frame=new JFrame("Event Demo");
+	JPanel pa=new JPanel();
+	
+	public App()
+	{
+		frame.setSize(500,400);
+		frame.setDefaultCloseOperation(3);
+		frame.setResizable(false);
+		frame.setLocationRelativeTo(null);
+		frame.add(pa);
+		pa.setBackground(Color.yellow);
+		frame.setVisible(true);
+	}
+	public static void main(String[] args) 
+	{
+		new App();
+	}
+
+}

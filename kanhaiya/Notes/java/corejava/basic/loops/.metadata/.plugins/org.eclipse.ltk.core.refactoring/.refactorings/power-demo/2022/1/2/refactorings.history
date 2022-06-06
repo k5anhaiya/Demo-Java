@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;app4&apos; to &apos;fibonasciiseries&apos;&#x0D;&#x0A;- Original project: &apos;power-demo&apos;&#x0D;&#x0A;- Original element: &apos;app4&apos;&#x0D;&#x0A;- Renamed element: &apos;fibonasciiseries&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;app4&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{app4.java[app4" matchStrategy="1" name="fibonasciiseries" qualified="false" references="true" similarDeclarations="false" stamp="1641143495550" textual="false" version="1.0"/>
+</session>

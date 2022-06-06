@@ -1,0 +1,23 @@
+we can define variable Arguments as
+-------------------------------------
+we can pass ...a in the parameter list. in the method .n it should be the last parameter of the method.
+public class variableArgumentsString 
+
+
+note:
+varibale arguments parameter must be the last parameter.
+{
+	public static void showNames(int start,String ...s)
+	{
+		for(String x:s)
+		{
+			System.out.println(start+"."+x);
+			start++;
+		}
+	}
+	public static void main(String[] args) 
+	{
+		showNames(1,"Kanhaiya","Hanuman","Manish","Narayan","Rishi","Harkesh");
+	}
+
+}

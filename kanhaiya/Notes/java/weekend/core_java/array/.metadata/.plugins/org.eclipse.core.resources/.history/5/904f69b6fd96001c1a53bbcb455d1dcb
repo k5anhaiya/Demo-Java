@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class LinerSearch2 
+{
+ public static void main(String[] args) 
+ {
+  int [] list= {12345,11223,12233,44556,10101,11022,11993,45678};
+  Scanner sc=new Scanner(System.in);//Object of BuffreredInputStream class
+  System.out.println("Enter your roll number");
+  int rn=sc.nextInt();
+  boolean found=false;
+  for(int x:list)
+  {
+   if(x==rn)
+   {
+    found=true;
+    System.out.println("Your roll number exist into list");
+    break;
+   }
+  }
+  if(!found)
+   System.out.println("Your roll number does not exist into list");
+ }
+}

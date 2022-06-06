@@ -1,0 +1,54 @@
+Assigning value to the variables
+--------------------------------
+Following command should be written to assign value to the variables
+
+variable_name=value;
+
+value				type
+-----				----
+9090				int
+121324				int
+90.45				double
+90.45f				float
+true				boolean
+false				boolean
+'k'				char
+'9'				char
+'*'				char
+"8810436567"			String(It is a non primitive)
+"Rehan Ahmad"			String
+"rehanahmad9919@gmail.com"	String
+
+
+ASCII code or Unicode
+---------------------
+In porgramming every character(such as 'k','A','8','*',etc) is represented unsing a number innerally.
+This number is known as unicode(in java) or ASCII code in C and C++
+A-Z:65-90
+a-z:97-122
+0-9:48-57
+
+Remember every character is stored in memory in the form of binary code(0's and 1's)
+
+int num;
+num=90;
+
+
+or
+
+int num=90;
+
+Assigining value to the variable first time is known as intialization
+
+
+
+
+
+
+
+
+
+
+
+
+
