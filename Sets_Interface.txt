@@ -1,0 +1,279 @@
+Java List vs Set
+-----------------
+Both the List Interface and the set Interface inherits the Collection interface.
+However there exists some differnce between them.
+
+-List can include duplicate elements ,however sets can not have duplicate elements.
+-Elements in lists are sorted in some order.However , elements in sets are stores in groups like sets in mathematics.
+
+Set Interface
+--------------
+The set interface of the Java Collections framework provides the features of the mathematical set in java. it extends the collection interface.
+
+unlike the List Interface,Sets cannot contain duplicate elements.
+
+
+classes that implements set 
+----------------------------
+1)HashSet
+2)LinkdHashSet
+3)EnumSet
+4)TreeSet
+
+Interfaces that extend set
+--------------------------
+The Set interface is also extended by these subinterfaces:
+1)SortedSet
+2)NavigableSet
+
+
+How to use Set
+---------------
+Set are defined inside java.util.Set; package 
+
+syntax
+------
+Set<String> animals=new HashSet<>();
+
+or
+
+HashSet<Integer> hs1=new HashSet<Integer>();
+
+Methods of set are as follows
+-----------------------------
+1)add()               --->inserts the specified element to the collection
+2)size()	     ---->returns the size of the collection
+3)remove()	     ----->removes the specified element from the collection
+4)iterator() 		----->returns an iterator to access elemetns of the collection
+5)addAll()              -----> adds all the elements of a specified collection to the collection
+6)removeAll()		----->removes all the elements of the specified collection from the collection
+7)clear()		---->removes all the elements of the collection
+8)retainAll() 		---->removes all the elements from the set that are also preset in another specified set
+9)size()		---->retuens the length of the set
+10)toArray()		----->returns an array containing all the elements of the set
+11)contains()		----->returns true if the set contains the specified element
+12)containsAll()	----->returns true if the set contains all the element of the specified collection
+13)hashcode()		----->returns a hash code value(address of the element in the Set)
+
+setOperations
+-------------
+Java Set Interface allows us to perform basic mathematical set operation like union,intersection,and subset.
+
+1)Union		-->to get the union of two set x and y we can use X.addAll(y)
+
+2)intersection		-->to get the intersection of two sets x and y, we can use x.retainAll(y)
+
+3)Subset		-->to check if x is a subset of y , we can use y.containsAll(x)
+
+
+example
+-------
+
+import java.util.HashSet;
+
+public class setsPractise 
+{
+	public static void main(String[] args) 
+	{
+		//creating a set using HashSet class
+		HashSet<Integer> set1=new HashSet<Integer>();
+		//adding element to the set
+		set1.add(5);
+		set1.add(6);
+		set1.add(7);
+		System.out.println("set 1: "+set1);
+		
+		//creating another set using HashSet Class
+		HashSet<Integer> set2=new HashSet<Integer>();
+		//addding element to the set
+		set2.add(6);
+		set2.add(8);
+		set2.add(9);
+		set2.add(10);
+		set2.add(11);
+		set2.add(12);
+		System.out.println("Set 2: "+set2);
+	}
+
+}
+
+
+
+example
+-------
+import java.util.TreeSet;
+import java.util.*;
+
+public class treeSet
+{
+	public static void main(String[] args) 
+	{
+		 // Creating a set using the TreeSet class
+        TreeSet<Integer> numbers = new TreeSet<>();
+
+        // Add elements to the set
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(1);
+        System.out.println("Set using TreeSet: " + numbers);
+
+        // Access Elements using iterator()
+        System.out.print("Accessing elements using iterator(): ");
+        Iterator<Integer> iterate = numbers.iterator();
+        while(iterate.hasNext())
+        {
+            System.out.print(iterate.next());
+            System.out.print(", ");
+        }
+	}
+
+}
+
+
+
+HashSet
+-------
+
+The HashSet class of tha java Collections framework provides the functionalities of the hash table data structure.
+
+it implements the set interface.
+
+Creating a HashSet
+------------------
+inorder to create a HashSet we must import the Java.util.HashSet package first.
+
+once we import the package , here is how we can create hash sets in java
+
+
+syntax
+-------
+//HashSet with 8 capacity and 0.75 load factor
+
+HashSet<Integer> numbers=new HashSet<>(8,0.75);
+
+Notice, the part new HashSet<>(8,0.75). Here, the first parameter is capacity and the second parameter is loadFactor.
+
+Capacity:The Capacity of this hash is 8. Meaning, it can store 8 elements.
+
+LoadFactor: The load factor of this hash set is 0.6, This means, Whenever our hash set is filled by 60%, the elements are moved to a new hash table of double the size of the original hash table.
+
+Default capacity and load factor
+--------------------------------
+it's possible to create a hash table without defining its capacity and loadfactor.For example:
+syntax
+------
+HashSet<Integer> numbers1=new HashSet<>();
+
+this will create a hashset and by default the capacity of the hashset will be 16 and the load factor will be 0.75
+
+
+
+Methods of HashSet
+------------------
+1)add()		-->inserts the specified element to the set
+2)allAll()	-->inserts all the elements of the specified collection to the set
+3)remove()
+4)removeAll()
+5)retainAll()    -->to check the common elements inside the sets or intersection of sets
+6)containsAll()	---->to check the elements are available in the set or not it is also 			known as subsets
+
+
+
+for example:
+package Sets_Collections;
+import java.util.HashSet;
+import java.util.*;
+
+public class HashsetPractise1 
+{
+    public static void main(String[] args) 
+    {
+        HashSet<Integer> evenNumber=new HashSet<Integer>();//by defualt capacity will be 16 and load factor will be 0.75 i.e 75%
+		// Using add() method
+        evenNumber.add(2);
+        evenNumber.add(4);
+        evenNumber.add(6);
+        System.out.println("HashSet: " + evenNumber);
+
+        HashSet<Integer> numbers = new HashSet<>();
+        
+        // Using addAll() method
+        numbers.addAll(evenNumber);
+        numbers.add(5);
+        System.out.println("New HashSet: " + numbers);
+        
+    }
+    
+}
+
+all set operations performed in this example
+---------------------------------------------
+import java.util.HashSet;
+import java.util.*;
+public class unionset 
+{
+	public static void main(String[] args) 
+	{
+		HashSet<Integer> set1=new HashSet<Integer>();
+		HashSet<Integer> set2=new HashSet<Integer>();
+		set1.add(1);
+		set1.add(2);
+		set1.add(3);
+		set1.add(4);
+		set1.add(5);
+		set1.add(6);
+		set1.add(7);
+		set1.add(8);
+		set1.add(9);
+		set1.add(10);
+		set1.add(11);
+		set1.add(12);
+		set1.add(13);
+		set1.add(14);
+		set1.add(15);
+		//we are doing union of two sets
+		set2.addAll(set1);
+		set2.add(10);
+		set2.add(786);
+		set2.add(12);
+		System.out.println("SET 1 :"+set1);
+		System.out.println("SET 2 :"+set2);
+		
+		//intersections of sets
+		set2.retainAll(set1);//this will delete all other elements except commons in both
+		System.out.println(set2);
+		
+		//Difference of sets
+		set1.removeAll(set2);
+		System.out.println(set1);
+		
+		//subset of sets
+		boolean answer= set1.containsAll(set2);
+		System.out.println("Answer of subset="+answer);
+		//subset of sets
+		 answer= set2.containsAll(set1);
+		System.out.println("Answer of subset="+answer);
+
+
+	}
+
+}
+
+other methods of Hashset
+------------------------
+1)clone()  		-->creates a copy of HashSet
+2)Contains()		-->serch the HashSet for the specified element and returns a boolean
+3)IsEmpty()		-->check if the HashSet is empty
+4)size()		-->Returns the size of the HashSet
+5)clear()		-->Returns all the elements from the HashSet.
+
+
+
+why HashSet..?
+-----------
+In java HashSet is commonly used if we have to access elements randomly.It is because elements in hash table are accesssed using hash codes.
+The hashcode of an element is a unique identity that helps to identify the element in a hash table.
+HashSet can not contain duplicate elements .Hence each hash set element has a unique hashcode.
+
+
+Note: HashSet is not synchronised .That is if multiple threads access the hash set at the same time and one of the threads modifes the has set. then it must be externally synchronised.

@@ -1,0 +1,71 @@
+LinkedHashSet
+--------------
+LinkedHashSet implements Set
+
+package: java.util.LinkedHashSet
+
+//LinkedHashSet with 8 capacity and 0.75 load factor
+LinkedHashSet<Integer> lhs=new LinkedHashSet<Integer>();
+
+or
+LinkedHashSet<Integer> lhs=new LinkedHashSet<Integer>(8,0.75f);
+
+creating LinkedHashSet from other Collections
+
+import java.util.LinkedHashSet;
+import java.util.ArrayList;
+
+public class lhs1 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> evenNumbers=new ArrayList<Integer>();
+		evenNumbers.add(2);
+		evenNumbers.add(4);
+		System.out.println("ArrayLisy:" +evenNumbers);
+		
+		//creating a LinkedHashSet from a ArrayList
+		LinkedHashSet<Integer> numbers=new LinkedHashSet<Integer>(evenNumbers);
+		System.out.println("LinkedHashSet "+numbers);
+		
+	}
+
+}
+
+
+Methods of LinkedHashSet
+------------------------
+1)add()
+2)addAll()
+3)hasNext()
+4)next()
+5)remove()
+6)removeAll()
+7)clone()
+8)contains()
+9)isEmpty()
+10)Size()
+11)Clear()
+
+set operations 
+--------------
+union  done by addAll() method
+intersection  don by retainAll() method
+difference  done by removeALl()
+subset done by containsAll()
+
+LinkedHashSet vs HashSet
+-------------------------
+-Both LinkedHashSet and HashSet implements the set interface.
+-LinkedHashset maintains a linkedlist internally .Due to this it maintains order of its elements.
+-The LinkedHashSet class requires more storage than HashSet. This is because LinkedHashSet maintains linked lists internally.
+-The performance of LinkedHashSet is slower than the Hashset , it is because lists present in LinkedHastSet.
+
+
+LinkedHashSet vs TreeSet
+-------------------------
+here are the major difference between LinkedHashSet and TreeSet
+
+-The Treeset class implements SortedSet interface That's why elements in a tree are sorted , the LinkedHashSet class only maintains the insertion order of its elements.
+-TreeSet is usually slower than a LinkedHashSet. it is because whenever an element is added to a TreeSet, it has to perform the sorting operation.
+-LinkedHashSet allows the insertion of null values however we cannot insert null value to TreeSet.

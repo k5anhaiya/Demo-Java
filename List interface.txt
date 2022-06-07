@@ -1,0 +1,48 @@
+List
+----
+represents ordered collection of objects and there may be duplicate elements also 
+
+
+list interface inherits collection interface
+
+methods 
+--------
+add(int index,E e);           ---->adding at proper index
+
+addAll(int index,Collection<E> e)\
+
+remove (int index)
+
+get(int index)
+
+set(int index,E e)           ----->it will change that place only while add method will replace and make a free space.
+
+sublist(int from,int to)        ---->to get elements from index to index
+
+indexof(object o)                ----->Give the index of the character
+
+lastindexof(object o)                ----->This iterator will work in both directions.
+
+listiterator()			------>this iterator will work in both directions.
+
+listiterator(int index)
+
+interface set extends  collections. it has same methods as same as collections.
+
+Queue Interface
+---------------
+This supports FIFO mechanism  i.e first in and first out.
+
+add(E e)    -->it will not ask you where to add it will add the object in last of the array
+
+poll()      --->it will not ask it will remove the first element if founf empty return null
+
+remove() throws NoSuchElement Exception
+
+This is same as poll() but the diffence is if it is queue is empty them throught the excepion. i.e NoSuchElementException
+
+peek()     ----> if i want to know what is the next ekement coming out from the Queue then we will use this if empty returns null().
+
+element() thows NoSuchElementException
+
+this is same as peek method but throws exception when their is no next element present.

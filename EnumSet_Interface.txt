@@ -1,0 +1,69 @@
+package : java.util.EnumSet;
+
+we do not create an object of EnumSet
+EnumSet implements Set interface.
+
+EnumSet has no access modifiers.
+
+import java.util.*;
+import java.util.EnumSet;
+
+class EnumSetapp
+{
+	//an enum named size
+	enum Size  //enum is set of named constant
+	{
+		SMALL,MEDIUM,LARGE,EXTRALARGE
+	}
+	public static void main(String[] args) 
+	{
+		//creating EnumSet using allof()
+		EnumSet<Size> sizes= EnumSet.allOf(Size.class);
+		System.out.println("EnumSet:"+sizes);
+		
+	}
+
+}
+
+Methods of Enum
+----------------
+1)Using allOf(Size)  : allOf() method creates an enum set that contains all the values of the specified enum type Size.
+2)noneOf(Size)		:method creates an empty enum set.
+3)range(e1,e2)		:Method shows the result in the range of e1 and e2
+4)of()			:creates enum set contaning the specified elements.
+5)add()
+6)addALL()
+7)iterator()
+8)hasNext()
+9)next()
+10)remove()
+11)removeAll()
+12)copyof             --->creates a copy of the EnumSet
+13)contains()	    
+14)isEmpty()
+15)size()
+16)clear()
+
+
+EnumSet class also implements cloneable and serializable interfaces
+
+cloneable interface
+---------------------
+it allows the EnumSet class to make a copy of instances of the class.
+
+Serializable Interface
+----------------------
+Whenever Java Objects need to be transmitted over a network objects need to be converted into bits or bytes this is because java objects cannot be transmitted over the network.
+The Serializable interface allows classes to be serialized.
+This means Objects of the classes implementing 
+Serializable can be converted into bits or bytes.
+
+
+Why EnumSet
+-----------
+The EnumSet provides an efficient way to store enum values than other Set implentations(like HashSet,TreeSet)
+
+An enum set only stores enum values of a specific enum.Hence JVM already knwn all the possible values of the set.
+
+This is the reason why enum sets are internally implemented as a sequence of bits.Bits specifies whether element are present in the enum ser or not.
+The Bit of a correspoding element is turned on if thaat element is present in the set.
