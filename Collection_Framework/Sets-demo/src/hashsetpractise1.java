@@ -10,6 +10,7 @@ public class hashsetpractise1
         evenNumber.add(2);
         evenNumber.add(4);
         evenNumber.add(6);
+        evenNumber.add(null);
         System.out.println("HashSet: " + evenNumber);
 
         HashSet<Integer> numbers = new HashSet<>();
