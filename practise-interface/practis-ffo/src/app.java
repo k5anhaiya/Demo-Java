@@ -4,7 +4,7 @@ public class app
 {
 	public static void main(String[] args) 
 	{
-		AirthmeticTask sh;
+		AirthmeticTask sh=null;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("please enter your choice");
 		System.out.println("==========================");
