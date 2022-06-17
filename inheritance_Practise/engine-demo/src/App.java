@@ -13,12 +13,12 @@ public class App
 		System.out.println("=======================================");
 		System.out.println();
 		System.out.print("please Enter your choice :");
-		int ch=sc.nextInt();
-		if(ch==1)
+		int choice=sc.nextInt();
+		if(choice==1)
 			sh=new PetrolEngine();
-		else if(ch==2)
+		else if(choice==2)
 			sh=new DieselEngine();
-		else if(ch==3)
+		else if(choice==3)
 			sh=new CngEngine();
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
 		System.out.println("Engine is Ready..........");
@@ -31,16 +31,16 @@ public class App
 			System.out.println("3.Quit");
 			System.out.println("===============");
 			System.out.print("please enter your choice :");
-			ch=sc.nextInt();
-			if( ch==1)
+			choice=sc.nextInt();
+			if( choice==1)
 			{
 				sh.startEngine();
 			}
-			else if( ch==2)
+			else if( choice==2)
 			{
 				sh.stopEngine();
 			}
-			else if( ch==3)
+			else if( choice==3)
 			{
 			System.out.println("Thankyou....");
 			break;

@@ -12,28 +12,28 @@ public class App
 		System.out.println("4.Quit");
 		System.out.println("please Enter your choice :");
 		Scanner sc=new Scanner(System.in);
-		int ch=sc.nextInt();
+		int choice=sc.nextInt();
 		while(true)
 		{
-		if(ch==1)
+		if(choice==1)
 		{
 			c1=new apple();
 			c1.showcolor();
 			break;
 		}
-		if(ch==2)
+		if(choice==2)
 		{
 			c1=new Orange();
 			c1.showcolor();
 			break;
 		}
-		if(ch==3)
+		if(choice==3)
 		{
 			c1=new banana();
 			c1.showcolor();
 			break;
 		}
-		if(ch==4)
+		if(choice==4)
 		{
 			break;
 		}

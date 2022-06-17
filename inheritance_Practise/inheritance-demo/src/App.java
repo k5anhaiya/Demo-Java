@@ -14,9 +14,9 @@ public class App
 		System.out.println("4.Quit");
 		System.out.println("=================================");
 		System.out.print("please enter your choice :");
-		int ch=sc.nextInt();
+		int choice=sc.nextInt();
 	
-		switch (ch) 
+		switch (choice) 
 		{
 		case 1:
 		{
